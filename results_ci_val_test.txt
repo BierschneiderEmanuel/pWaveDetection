@@ -1,0 +1,27 @@
+Patient bootstrap, B=2000, stratified by database, 95 % percentile intervals (values in %)
+[val] rules
+  butpdb  SE= 72.1 [ 52.8,  88.3]  PPV= 80.3 [ 68.1,  89.1]  F1= 76.0 [ 60.0,  87.6]  (patients 7)
+  pwave   SE= 85.0 [ 61.6,  98.1]  PPV= 94.5 [ 82.9,  99.4]  F1= 89.5 [ 70.6,  98.8]  (patients 2)
+  ludb    SE= 86.6 [ 82.4,  90.6]  PPV= 88.2 [ 77.8,  95.6]  F1= 87.4 [ 81.2,  92.2]  (patients 39)
+  qtdb    SE= 85.3 [ 71.8,  97.3]  PPV= 93.3 [ 86.1,  99.3]  F1= 89.1 [ 78.3,  98.1]  (patients 14)
+  macro   F1= 85.5 [ 77.9,  91.0]
+[val] learned
+  butpdb  SE= 75.6 [ 59.5,  90.2]  PPV= 80.6 [ 68.6,  89.3]  F1= 78.0 [ 64.0,  88.8]  (patients 7)
+  pwave   SE= 91.4 [ 77.4,  99.2]  PPV= 94.3 [ 84.3,  99.5]  F1= 92.8 [ 80.7,  99.3]  (patients 2)
+  ludb    SE= 89.4 [ 86.2,  92.6]  PPV= 90.2 [ 80.9,  96.3]  F1= 89.8 [ 84.3,  93.9]  (patients 39)
+  qtdb    SE= 87.3 [ 74.5,  98.1]  PPV= 93.0 [ 85.3,  99.3]  F1= 90.0 [ 79.5,  98.6]  (patients 14)
+  macro   F1= 87.7 [ 81.8,  92.5]
+[val] macro F1 learned-rules = +2.17 [+1.01, +4.44]  share of replicates <= 0: 0.000
+[test] rules
+  butpdb  SE= 84.1 [ 69.9,  92.2]  PPV= 89.5 [ 77.5,  95.5]  F1= 86.7 [ 73.9,  93.3]  (patients 10)
+  pwave   SE= 89.1 [ 77.6,  99.5]  PPV= 97.4 [ 92.0, 100.0]  F1= 93.1 [ 84.2,  99.7]  (patients 3)
+  ludb    SE= 91.8 [ 88.9,  94.6]  PPV= 92.1 [ 85.9,  96.6]  F1= 91.9 [ 88.2,  94.9]  (patients 40)
+  qtdb    SE= 87.2 [ 76.5,  95.8]  PPV= 91.8 [ 83.6,  98.3]  F1= 89.4 [ 80.5,  95.7]  (patients 18)
+  macro   F1= 90.3 [ 86.0,  93.3]
+[test] learned
+  butpdb  SE= 89.6 [ 81.4,  95.0]  PPV= 91.3 [ 82.3,  96.2]  F1= 90.5 [ 82.5,  95.3]  (patients 10)
+  pwave   SE= 91.7 [ 85.4,  99.5]  PPV= 99.4 [ 98.9,  99.9]  F1= 95.4 [ 91.6,  99.7]  (patients 3)
+  ludb    SE= 93.1 [ 90.4,  95.7]  PPV= 92.8 [ 86.8,  97.1]  F1= 92.9 [ 89.5,  95.8]  (patients 40)
+  qtdb    SE= 89.8 [ 79.2,  97.9]  PPV= 88.8 [ 77.8,  97.0]  F1= 89.3 [ 79.4,  96.3]  (patients 18)
+  macro   F1= 92.0 [ 88.7,  94.5]
+[test] macro F1 learned-rules = +1.74 [+0.21, +3.98]  share of replicates <= 0: 0.012

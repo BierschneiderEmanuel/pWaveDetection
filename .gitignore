@@ -1,0 +1,9 @@
+.venv/
+.cache_*.pkl
+raw/
+datasets/
+*_but-pdb_buotesd_annotations.json
+tune*.log
+doc/
+__pycache__/
+*.pyc

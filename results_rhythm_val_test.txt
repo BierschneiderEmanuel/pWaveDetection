@@ -1,0 +1,29 @@
+Rhythm-stratified results, pooled over databases; patient bootstrap B=2000, 95 % intervals
+[val ] rules        non-AF beats= 15404 P in scope= 12135 patients= 47 {'butpdb': 7, 'pwave': 2, 'ludb': 36, 'qtdb': 2}
+        FP/100 beats=  5.9 [  2.8,   9.0]  Se= 83.3 [ 69.4,  93.4]  PPV= 91.8 [ 83.8,  96.9]  F1= 87.4 [ 76.2,  94.9]  TP=10113 FP=906
+[val ] rules        AF     beats=   914 P in scope=     0 patients=  6 {'butpdb': 2, 'pwave': 1, 'ludb': 3}
+        FP/100 beats= 15.6 [  9.2,  20.8]  Se=  0.0 [  0.0,   0.0]  PPV=  0.0 [  0.0,   0.0]  F1=  0.0 [  0.0,   0.0]  TP=0 FP=143
+[val ] learned      non-AF beats= 15404 P in scope= 12135 patients= 47 {'butpdb': 7, 'pwave': 2, 'ludb': 36, 'qtdb': 2}
+        FP/100 beats=  6.2 [  2.9,   9.4]  Se= 88.3 [ 79.1,  95.1]  PPV= 91.8 [ 84.6,  96.8]  F1= 90.0 [ 82.0,  95.8]  TP=10712 FP=960
+[val ] learned      AF     beats=   914 P in scope=     0 patients=  6 {'butpdb': 2, 'pwave': 1, 'ludb': 3}
+        FP/100 beats=  8.9 [  5.4,  11.7]  Se=  0.0 [  0.0,   0.0]  PPV=  0.0 [  0.0,   0.0]  F1=  0.0 [  0.0,   0.0]  TP=0 FP=81
+[val ] rules-nocons non-AF beats= 15404 P in scope= 12135 patients= 47 {'butpdb': 7, 'pwave': 2, 'ludb': 36, 'qtdb': 2}
+        FP/100 beats=  7.9 [  3.4,  12.2]  Se= 83.4 [ 70.2,  93.0]  PPV= 89.3 [ 79.0,  96.2]  F1= 86.2 [ 74.6,  94.3]  TP=10121 FP=1215
+[val ] rules-nocons AF     beats=   914 P in scope=     0 patients=  6 {'butpdb': 2, 'pwave': 1, 'ludb': 3}
+        FP/100 beats= 28.4 [ 19.2,  35.9]  Se=  0.0 [  0.0,   0.0]  PPV=  0.0 [  0.0,   0.0]  F1=  0.0 [  0.0,   0.0]  TP=0 FP=260
+[val ] AF FP/100 beats learned-rules = -6.8 [-9.4, -3.7]
+[val ] AF FP/100 beats rules-rules-nocons = -12.8 [-15.0, -10.0]
+[test] rules        non-AF beats= 17404 P in scope= 14840 patients= 53 {'butpdb': 10, 'pwave': 3, 'ludb': 37, 'qtdb': 3}
+        FP/100 beats=  3.1 [  1.4,   5.0]  Se= 88.9 [ 82.0,  95.2]  PPV= 96.1 [ 92.8,  98.3]  F1= 92.3 [ 87.2,  96.4]  TP=13196 FP=542
+[test] rules        AF     beats=  1351 P in scope=     8 patients=  6 {'butpdb': 3, 'ludb': 3}
+        FP/100 beats= 11.9 [  6.3,  22.2]  Se=  0.0 [  0.0,   0.0]  PPV=  0.0 [  0.0,   0.0]  F1=  0.0 [  0.0,   0.0]  TP=0 FP=161
+[test] learned      non-AF beats= 17404 P in scope= 14840 patients= 53 {'butpdb': 10, 'pwave': 3, 'ludb': 37, 'qtdb': 3}
+        FP/100 beats=  2.0 [  1.2,   3.1]  Se= 91.6 [ 87.7,  96.3]  PPV= 97.5 [ 96.1,  98.6]  F1= 94.4 [ 92.0,  97.0]  TP=13598 FP=354
+[test] learned      AF     beats=  1351 P in scope=     8 patients=  6 {'butpdb': 3, 'ludb': 3}
+        FP/100 beats= 10.4 [  7.0,  17.2]  Se= 25.0 [  0.0,  25.0]  PPV=  1.4 [  0.0,   4.6]  F1=  2.7 [  0.0,   7.7]  TP=2 FP=140
+[test] rules-nocons non-AF beats= 17404 P in scope= 14840 patients= 53 {'butpdb': 10, 'pwave': 3, 'ludb': 37, 'qtdb': 3}
+        FP/100 beats=  6.0 [  1.8,  11.5]  Se= 90.9 [ 87.1,  95.4]  PPV= 92.8 [ 85.4,  97.9]  F1= 91.8 [ 86.3,  96.2]  TP=13490 FP=1048
+[test] rules-nocons AF     beats=  1351 P in scope=     8 patients=  6 {'butpdb': 3, 'ludb': 3}
+        FP/100 beats= 23.4 [ 15.5,  37.0]  Se=  0.0 [  0.0,   0.0]  PPV=  0.0 [  0.0,   0.0]  F1=  0.0 [  0.0,   0.0]  TP=0 FP=316
+[test] AF FP/100 beats learned-rules = -1.6 [-5.8, +1.3]
+[test] AF FP/100 beats rules-rules-nocons = -11.5 [-14.8, -9.3]
